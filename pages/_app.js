@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import '../styles/media.css'
 import '../styles/main.css'
 import '../styles/milky.css'
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
   return (
