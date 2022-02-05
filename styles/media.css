@@ -29,6 +29,8 @@
 @media screen and (max-width: 660px) {
   /* changing the header to fit a potrait screen */
    .header {
+    /* testing media queries in next */
+    background-color: yellow;
     flex-direction: column;
     margin-left: 0;
     margin-right: 0; 
