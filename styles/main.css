@@ -1,0 +1,374 @@
+/* color theme */
+:root {
+  --bg-color: rgb(50, 50, 50);
+  /* section colors */
+  --header-color: rgb(37, 37, 37);
+  --s1-color: rgb(37, 37, 37, 0.6);
+  /* --s2-color: rgb(30, 30, 30, 0.8); */
+  --s2-color: rgb(30, 30, 30, 0.8);
+  /* active color */
+  /* --s3-color: rgb(24, 26, 27, 0.6); */
+  --s3-color: rgb(20, 20, 20, 0.8);
+  --s4-color: rgb(20, 20, 20, 0.8);
+  /* text colors */
+  --h1-color: rgb(255, 255, 255);
+  --h2-color: rgb(51, 125, 255);
+  --h3-color: rgb(255, 255, 255);
+  --h4-color: rgb(79, 193, 241);
+  --text-color: rgb(204, 204, 206);
+  --text2-color: rgb(51, 125, 255);
+  /* blueLine milky way pallete */
+  --bigStone: #121E39;
+  --perwinkleGray: #BCCAE8;
+  --waikawaGray: #6377AD;
+  --poloBlue: #7C9ACA;
+  /* figma */
+  /* --intro-color: #26262B; */
+  --intro-color: rgb(38, 38, 43, 0.9);
+  --intro-color-full: rgb(38, 38, 43);
+  /* color-wheel */
+  --comp-color: #FFFF13;
+}
+
+body {
+  font-family: 'Open Sans';
+  /* background-color: var(--bg-color); */
+  color: var(--text-color);
+  margin: 0px;
+}
+
+/* header */
+.header {
+  width: auto;
+  padding: 1rem;
+  margin: 0rem;
+  background-color: var(--header-color);
+  /* how do i make just the background opacity 0.66 and not the text? */
+  /* opacity: 0.66; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 2.5rem;
+}
+
+.icon {
+  margin: 0.5rem;
+  color: var(--text-color)
+}
+
+.iconLink {
+  color: var(--text-color);
+}
+
+.connect {
+  width: auto;
+  display: flex;
+  align-items: flex-end;
+  align-items: center;
+}
+
+.connectImg {
+  height: 3rem;
+  margin-left:1rem;
+  margin-right: 0.25rem;
+}
+
+h1 {
+  /* font-family: 'Courier New', Arial; */
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.name {
+  font-size: 3rem;
+  margin-left: 1.5rem;
+}
+
+h2 {
+  /* font-family: 'Courier New', Arial; */
+  font-family: 'Open Sans';
+  font-size: 1.2rem;
+  color: var(--h2-color);
+  margin: 0;
+  padding: 0;
+}
+
+.job {
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  color: var(--comp-color)
+}
+
+h3 {
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  margin: 0;
+  margin-bottom: 0.25rem;
+  color: var(--h4-color);
+}
+
+a:visited {
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--text2-color);
+}
+
+.projects {
+  /* why wont the projects become the right width??? */
+  /* width: auto; */
+  /* width: fill-available; */
+  /* width: fit-content; */
+  /* width: 100%; */
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  margin: 1rem;
+  background-color: var(--s1-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 1327px;
+  border-radius: 25px;
+}
+
+.about {
+  /* width: auto; */
+  padding: 1rem;
+  margin: 1rem;
+  background-color: var(--s1-color);
+  max-width: 1327px;
+  border-radius: 25px;
+}
+
+table {
+  border-spacing: 0px;
+  width: 100%;
+}
+
+tr {
+  /* width: 100%; */
+  /* height: auto; */
+}
+
+td {
+  /* margin: 1rem; */
+  padding: 1rem;
+  width: 50%;
+  height: 100px;
+  background-color: var(--s4-color);
+  /* border: 1rem solid var(--border-color); */
+  vertical-align: top;
+  border-radius: 12.5px;
+}
+
+
+.myself {
+  /* width: auto; */
+  /* padding: 1rem; */
+  margin: 1rem;
+  /* float: right; */
+  /* width: 50%; */
+}
+
+.bootcamp {
+  /* width: auto; */
+  /* padding: 1rem; */
+  margin: 1rem;
+  /* float: left; */
+  /* width: 50%; */
+}
+/* could .projects, .about and .bootcamp be combined? */
+
+/* accordion */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: var(--s2-color);
+  color: var(--h2-color);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 0px;
+  font-family: 'Orbitron', 'Open sans';
+  border-radius: 12.5px;
+}
+
+.projectsIntro {
+  background-color: var(--s3-color);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: var(--s3-color);
+  color: var(--comp-color)
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: var(--s3-color);
+  display: none;
+  overflow: hidden;
+  margin-top: 0px;
+  border-radius: 12.5px;
+}
+
+.projectPanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectInfo {
+  display: inline-block; 
+}
+
+.projectColumn {
+  float: left;
+  width: 50%;
+}
+
+/* project */
+.project {
+  width: auto;
+  margin: 1rem;
+  margin-bottom: 0rem;
+  /* background-color: #E6E6E6; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sectionTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 1rem;
+}
+
+.projectSection {
+  width: auto;
+  margin: 1rem;
+  padding: 1rem;
+  /* background-color: var(--s4-color); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projectImgSection {
+  overflow: hidden;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectImg {
+  width: auto;
+  max-width: 60%;
+  max-height: 60%;
+  margin: 1rem;
+}
+
+.projectImg:hover {
+  /* transform: scale(1.05); */
+  box-shadow: 1px 1px 1px 1px var(--comp-color);
+}
+
+/* Classes for applying different colors to text */
+
+.what {
+  color: var(--what-color);
+}
+
+.note {
+  color: var(--note-color);
+}
+
+.who {
+  color: var(--who-color);
+}
+
+/* styles for tech and techs */
+.techs {
+  /* flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.tech {
+  margin: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.home:hover {
+  color: var(--comp-color)
+}
+
+/* setting a max width on content */
+.aboutRoute {
+  /* max-width: 1400px; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  align-items: stretch;
+  padding: 1rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+.projectIcon {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.projectTitle {
+  font-family: 'Orbitron', 'Open sans';
+  font-size: 1.75rem;
+}
+
+/* easy way to center and stretch to justify content */
+.bugFix {
+  display: flex;
+  justify-content: center;
+}

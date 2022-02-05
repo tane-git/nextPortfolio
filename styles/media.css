@@ -1,0 +1,130 @@
+/* CSS styles for small tablets */
+@media screen and (max-width: 800px) {
+  /* decreasing the sizes of the 'connect with me!' image and social media buttons */
+  .connectImg {
+    height: 2rem;
+    margin-left:0rem;
+  } 
+
+  .icon {
+    margin: 0.25rem;
+    font-size: 2rem;
+    padding: 0rem;
+  }
+
+  .projectColumn {
+    width: 100%;
+  }
+
+  .spaceholderHeader {
+    height: 0px;
+  }
+
+  .body {
+    margin: 0px;
+  }
+}
+
+/* CSS styles for phones */
+@media screen and (max-width: 660px) {
+  /* changing the header to fit a potrait screen */
+   .header {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0; 
+    /* position: relative; */
+  }
+
+  .icons {
+    justify-content: flex-end;
+  }
+
+  /* reducing side margins and paddings */
+  .projects {
+    margin: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* background-color: var(--bg-color); */
+  }
+
+  .about {
+    margin: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* background-color: var(--bg-color); */
+  }
+
+  td {
+    /* background-color: var(--bg-color); */
+    /* border: 0rem solid var(--bg-color); */
+  }
+
+  .bootcamp {
+    /* margin: 0; */
+    /* padding-left: 0.5rem; */
+    /* padding-right: 0.5rem; */
+    /* background-color: var(--bg-color); */
+  }
+  /* could .projects, .about and .bootcamp be combined? */
+
+  .project {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .accordion {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .projectSection {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .projectColumn {
+    width: 100%;
+  }
+  
+  .panel {
+    padding: 0.5rem;
+  }
+
+  h2 {
+    margin-bottom: 0rem;
+  }
+  
+  h4 {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+  }
+
+  .job {
+    font-size: 1.75rem;
+  }
+
+  .aboutRoute {
+    padding: 0;
+  }
+}
+
+/* CSS styles for very small screens */
+@media screen and (max-width: 370px) {
+  .header {
+    /* background-color: var(--bg-color); */
+  }
+
+  .name {
+    font-size: 1.25rem;
+  }
+
+  .job {
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  
+}
