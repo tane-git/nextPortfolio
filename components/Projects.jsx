@@ -7,7 +7,18 @@ export default function Projects () {
   const projects = projectsData()
 
   useEffect(() => {
-    accordion()
+    var acc = document.getElementsByClassName('accordion')
+    // var i
+
+    let vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
+
+    // add an event listener to check what the viewport is
+    window.addEventListener('resize', () => {
+      // check what the viewport is
+      vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+    })
+
+    accordion(acc, vw)
   }, [])
 
   return (
