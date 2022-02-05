@@ -2,7 +2,8 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faHome } from '@fortawesome/free-solid-svg-icons'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import Link from 'next/link'
 
 const github = <FontAwesomeIcon icon={faGithub} size="lg" />
 const linkedIn = <FontAwesomeIcon icon={faLinkedin} size="lg" />
@@ -37,7 +38,8 @@ export default function Header () {
             </a>
           </div>
           <div className='icon home'>
-            <Link to='/' className='iconLink home'>
+            {/* <Link to='/' className='iconLink home'> */}
+            <Link href="/">
               {home}
             </Link>
           </div>

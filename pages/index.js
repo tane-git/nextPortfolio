@@ -47,7 +47,7 @@ export default function Home() {
           </div>
           <div className='portfolio'>
             {/* <Link to='/about' className='portfolioLink'> */}
-            <Link href='portfolio'>
+            <Link href='/portfolio'>
               <button className='portfolioButton'>
                 PORTFOLIO
               </button>
