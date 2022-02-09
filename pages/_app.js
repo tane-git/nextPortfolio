@@ -1,8 +1,14 @@
+// CSS global
 import '../styles/globals.css'
 import '../styles/media.css'
 import '../styles/main.css'
 import '../styles/milky.css'
+
+// Next stuff
 import Head from 'next/head'
+
+// Font Awesome
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 function MyApp({ Component, pageProps }) {
   return (
