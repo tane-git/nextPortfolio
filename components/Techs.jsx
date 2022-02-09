@@ -1,5 +1,8 @@
 import React from 'react'
 
+// import icons?
+// import { Icon } from '@iconify/react';
+
 export default function Techs (props) {
   const project = props.project
 
@@ -10,6 +13,7 @@ export default function Techs (props) {
         // how can I make this more programattic?
         switch (tech) {
           case 'react': return <div key={i} className='tech'><span className="iconify" data-icon="logos:react"></span></div>
+          // case 'react': <Icon icon="mdi-light:home" />
           case 'redux': return <div key={i} className='tech'><span className="iconify" data-icon="logos:redux"></span></div>
           case 'node': return <div key={i} className='tech'><span className="iconify" data-icon="logos:nodejs"></span></div>
           case 'html': return <div key={i} className='tech'><span className="iconify" data-icon="vscode-icons:file-type-html"></span></div>
