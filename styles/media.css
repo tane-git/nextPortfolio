@@ -1,4 +1,12 @@
 /* CSS styles for small tablets */
+/* body {
+  background-color: blue;
+}
+
+.name {
+  color: red;
+} */
+
 @media screen and (max-width: 800px) {
   /* decreasing the sizes of the 'connect with me!' image and social media buttons */
   .connectImg {
@@ -29,8 +37,6 @@
 @media screen and (max-width: 660px) {
   /* changing the header to fit a potrait screen */
    .header {
-    /* testing media queries in next */
-    background-color: yellow;
     flex-direction: column;
     margin-left: 0;
     margin-right: 0; 

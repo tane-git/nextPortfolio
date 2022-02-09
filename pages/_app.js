@@ -1,15 +1,14 @@
 // CSS global
 import '../styles/globals.css'
-import '../styles/media.css'
 import '../styles/main.css'
 import '../styles/milky.css'
+import '../styles/media.css'
 
 // Next stuff
 import Head from 'next/head'
 
 // Other...
 import '@fortawesome/fontawesome-svg-core/styles.css'
-import { Icon } from '@iconify/react';
 
 function MyApp({ Component, pageProps }) {
   return (
