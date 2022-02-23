@@ -52,8 +52,10 @@ export default function About () {
                 <td>
                   <div className='myself'>
                     <h2>Myself</h2>
-                    <p>I am currently looking to join an awesome Dev Team that encourages and supports each other while working on cutting-edge Tech.</p>
-                    <p>Please feel free to check out some of the projects I have developed and if you think I might be a good fit for your team, reach out, I would love to discuss any oppurtunities.</p>
+                    {/* <p>I am currently looking to join an awesome Dev Team that encourages and supports each other while working on cutting-edge Tech.</p> */}
+                    {/* <p>Please feel free to check out some of the projects I have developed and if you think I might be a good fit for your team, reach out, I would love to discuss any oppurtunities.</p> */}
+                    <p>I am currently working at OnFinality building infrastructure for the developers of web3.</p>
+                    <p>Feel free to check out some of the projects I completed during the coding bootcamp and connect with me on LinkedIn or follow my Github.</p>
                   </div>
                 </td>
                 <td>
