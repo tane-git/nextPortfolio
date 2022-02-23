@@ -32,7 +32,7 @@ export default function Home() {
         <div className='introDescriptionHolder'>
           <div className='introDescription'>
             {/* I have recently completed a coding bootcamp and I am excited to enter the tech industry. */}
-            I have recently completed a coding bootcamp and got a full-time job as a software developer at a blockchain start up.
+            Working in the web3 space as a full-stack developer!
           </div>
         </div>
         <div className='introIcons'>
