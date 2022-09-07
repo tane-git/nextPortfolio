@@ -8,7 +8,7 @@ export default function projectsData () {
       link: 'https://project.subquery.network',
       github: 'Not open-source, please reach out if you want to discuss my code',
       tech: [ 'typescript', 'react', 'mobx', 'html', 'css', 'vite' ],
-      image: 'subquery-ms-small.PNG',
+      image: 'subquery-ms.PNG',
       imageAlt: 'Screenshot of the SubQuery Managed Service app',
       note: 'To properly demo this app, you will need a GitHub and to read our docs'
     },
