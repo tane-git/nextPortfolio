@@ -1,6 +1,30 @@
 export default function projectsData () {
   const projects = [
     {
+      title: 'SubQuery Managed Service',
+      type: 'Professional Project',
+      what: 'A frontend web application for our customers (web3 developers) to create and manage their blockchain data-indexing projects with us',
+      who: 'Myself, within a team of backend developers and designers',
+      link: 'https://project.subquery.network',
+      github: 'Not open-source, please reach out if you want to discuss my code',
+      tech: [ 'typescript', 'react', 'mobx', 'html', 'css', 'vite' ],
+      image: 'subquery-ms-small.PNG',
+      imageAlt: 'Screenshot of the SubQuery Managed Service app',
+      note: 'To properly demo this app, you will need a GitHub and to read our docs'
+    },
+    {
+      title: 'SubQuery Website',
+      type: 'Professional Project',
+      what: "SubQuery's Website",
+      who: 'Myself, working with a designer.',
+      link: 'https://subquery.network',
+      github: 'Not open-source, please reach out if you want to discuss my code',
+      tech: [ 'typescript', 'react', 'mobx', 'html', 'css', 'webpack' ],
+      image: 'subquery-ws.PNG',
+      imageAlt: 'Screenshot of the SubQuery Website',
+      note: 'This codebase is now maintained and updated by contractors'
+    },
+    {
       title: 'Argumentum',
       type: 'Bootcamp Final Project',
       what: 'A full stack web application, that allows users to select topics they are intereted in discussing, and then allows them to live chat with people that may disagree with them.',

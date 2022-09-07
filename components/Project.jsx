@@ -45,11 +45,15 @@ export default function Project (props) {
         <Techs project={project} />
       </div>
       <div className='projectSection'><h4>Code:</h4>
-        <a href={project.github} target='_blank' rel='noreferrer'>
-          <div className='projectIcon'>
-            {github}
-          </div>
-        </a>
+        {project.github.includes('https') ? (
+          <a href={project.github} target='_blank' rel='noreferrer'>
+            <div className='projectIcon'>
+              {github}
+            </div>
+          </a>
+        ) : (
+          project.github
+        )}
       </div>
       <div className='projectSection'><h4>Note:</h4><p className='note'>{project.note}</p></div>
     </div>
