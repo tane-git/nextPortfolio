@@ -1,7 +1,7 @@
 export default function projectsData () {
   const projects = [
     {
-      title: 'SubQuery Managed Service',
+      title: "SubQuery's Managed Service",
       type: 'Professional Project',
       what: 'A frontend web application for our customers (web3 developers) to create and manage their blockchain data-indexing projects with us',
       who: 'Myself, within a team of backend developers and designers',
@@ -13,7 +13,7 @@ export default function projectsData () {
       note: 'To properly demo this app, you will need a GitHub and to read our docs'
     },
     {
-      title: 'SubQuery Website',
+      title: "SubQuery's Website",
       type: 'Professional Project',
       what: "SubQuery's Website",
       who: 'Myself, working with a designer.',
