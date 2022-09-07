@@ -141,6 +141,18 @@ a:hover {
   color: var(--text2-color);
 }
 
+.portfolioBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.profolioStomach {
+  display: flex;
+
+}
+
 .projects {
   /* why wont the projects become the right width??? */
   /* width: auto; */
@@ -166,6 +178,10 @@ a:hover {
   background-color: var(--s1-color);
   max-width: 1327px;
   border-radius: 25px;
+
+  /* left: 50%;
+  transform: translateX(-50%) */
+
 }
 
 table {
